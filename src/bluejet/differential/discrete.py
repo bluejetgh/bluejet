@@ -1,0 +1,12 @@
+def diff(t, x):
+    if len(t) != len(x):
+        raise ValueError("t and x must have the same length")
+
+    v = []
+
+    for k in range(1, len(t)):
+        #Compute the discrete derivative between consecutive samples
+        derivative = (x[k] - x[k - 1]) / (t[k] - t[k - 1])
+        v.append(derivative)
+
+    return v
