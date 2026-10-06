@@ -1,6 +1,6 @@
 [project]
 name = "bluejet"
-version = "0.1.1"
+version = "0.1.2"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -10,6 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     "numpy>=2.5.3",
     "torch>=2.14.0",
+    "matplotlib>=3.8.0",
 ]
 
 [tool.maturin]
