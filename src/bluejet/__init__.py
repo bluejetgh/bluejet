@@ -1,3 +1,5 @@
+from .model import LinearRegression
+
 from bluejet._core import hello_from_bin
 
 
